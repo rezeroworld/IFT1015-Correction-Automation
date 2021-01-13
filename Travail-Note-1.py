@@ -80,5 +80,3 @@ correct_answers = ['*-+', '*-+', '*-+', '*-+', '*-+', '*-+', '*-+', '*-+']
 
 # Test the function all_students_correction()
 marks = all_students_correction('submissions', questions, correct_answers)
-
-print(marks)

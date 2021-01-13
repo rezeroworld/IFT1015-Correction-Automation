@@ -64,6 +64,9 @@ def all_students_correction(directory, questions, correct_answers):
     for i in range(len(marks)):
         marks[i].insert(0, students_directories_names[i])
         
+    # Finally we put everything in a dataframe, question columns are booleans indicating if the student has done
+    # the question right and the final column is the total grade (it considers the values True as ones and
+    # add them together).
     marks = arange_in_dataframe(marks, students_directories_names, columns)
     return marks
         

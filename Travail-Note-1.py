@@ -1,7 +1,3 @@
-# 1) Load the files
-# 2) Correct the files
-# Let's try with an example
-
 import sys
 import io
 import os

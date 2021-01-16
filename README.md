@@ -5,3 +5,6 @@
  Versions:
  - Python: 3.7
  - Pandas: 1.1.5 
+
+Example output of the script Travail-Note-2.py: <br/>
+![alt text](https://github.com/rezeroworld/IFT1015-Correction-Automation/blob/main/example-output.PNG)
